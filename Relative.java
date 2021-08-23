@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Relative {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stubScanner sc = new Scanner(System.in);
+		
 		Scanner sc=new Scanner(System.in);
 		int t = sc.nextInt();
 		for(int i=1;i<=t;i++){
