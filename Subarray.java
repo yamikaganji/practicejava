@@ -21,9 +21,10 @@ public class Subarray {
 		System.out.println("enter the element to search:");
 		int s=sc.nextInt();
 		boolean flag=false;
-		for(int i=0;i<num;i=i+num2)
+		for(int i=0;i<num;i=i+s)
 		{
-			for(int j=i;j<i+num2&&j<num;j++)
+			flag=false;
+			for(int j=i;j<i+s&&j<num;j++)
 			{
 			if(arr[j]==num2)
 				flag=true;
@@ -37,9 +38,9 @@ public class Subarray {
 				System.exit(0);
 			}
 		
-			System.out.println("1");
+			
 		}
-		
+		System.out.println("1");
 		
 	}
 
