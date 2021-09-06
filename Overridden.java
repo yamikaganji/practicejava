@@ -26,7 +26,7 @@ public class Overridden {
 			else
 			{
 				System.out.println(count);
-				
+				System.exit(0);
 			}
 		}
 
