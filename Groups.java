@@ -12,6 +12,8 @@ public class Groups {
 		int n1=0;
 		int m=0;
 		int r=0;
+		if(n<=200)
+		{
 		if(n%4==0)
 		{
 			m=n/4;
@@ -25,6 +27,13 @@ public class Groups {
 			System.out.println("group2: "+n1);
 			System.out.println("group3: "+n1);
 			System.out.println("group4: "+(n1+r));
+		}
+		
+			
+		}
+		else
+		{
+			System.out.println("invalid input");
 		}
 
 	}
