@@ -23,15 +23,7 @@ public class Series1 {
 				System.out.println(b);
 			}
 		}
-		
-		/*if(n%2!=0)
-		{
-			System.out.println(a);
-		}
-		else
-		{
-			System.out.println(b);
-		}*/
+	
 		
 
 	}
