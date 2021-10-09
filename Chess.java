@@ -6,6 +6,7 @@ public class Chess {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//codechef Problem Code: CHSFORMT
 		Scanner sc = new Scanner(System.in);
 		int rep = sc.nextInt();
 		for(int i =1; i<=rep; i++) {
