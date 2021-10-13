@@ -23,7 +23,8 @@ public class BearAndCandies {
 	                    sumB+=i;
 	                }
 
-	                if (sumA > sumB){
+	                if(sumA > sumB)
+			{
 	                    System.out.println("Limak");
 	                }else{
 	                    System.out.println("Bob");
