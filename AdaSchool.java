@@ -1,5 +1,9 @@
+
 package PracticePrograms;
 import java.util.Scanner;
+
+
+
 public class AdaSchool {
 
 	public static void main(String[] args) {
